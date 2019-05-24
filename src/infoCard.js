@@ -5,7 +5,12 @@ class InfoCard extends React.Component {
     super(props);
   }
   render() {
-    return <div>Hello there</div>;
+    return (
+      <div>
+        <div>Hello there</div>
+        <button onClick={() => console.log(`Hello WORLD`)}>Click Me</button>
+      </div>
+    );
   }
 }
 

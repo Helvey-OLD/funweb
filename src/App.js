@@ -7,10 +7,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={require("../src/images/2019HeadShot2.jpg")}
+          className="App-logo"
+          alt="logo"
+        />
         <p>
-          <code>MY APP</code>
+          <code>Jonathan Helvey</code>
+          <div>profolio</div>
           <InfoCard />
+          <img
+            style={{ hieght: "460px", width: "460px" }}
+            src={require("../src/images/ilya-pavlov-87438-unsplash copy.jpg")}
+          />
         </p>
       </header>
     </div>
