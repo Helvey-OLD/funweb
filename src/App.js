@@ -14,7 +14,7 @@ function App() {
         />
         <p>
           <code>Jonathan Helvey</code>
-          <div>profolio</div>
+          <div>Portfolio</div>
           <InfoCard />
           <img
             style={{ hieght: "460px", width: "460px" }}
